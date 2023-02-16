@@ -1,0 +1,107 @@
+export const projectData = [
+  {
+    title: "Expense Tracker",
+    description:
+      "Expense Tracker is a mobile application where we can store our expenses.This is used to track our expenses of a week and total expenses to current date.This app performs crud operations to manage expenses.",
+    imageSrc: "ExpenseTracker/all_expense.png",
+    outputImages: [
+      "ExpenseTracker/all_expense.png",
+      "ExpenseTracker/add_expense.png",
+      "ExpenseTracker/edit_expense.png",
+      "ExpenseTracker/recent_expense.png",
+    ],
+    tools: ["React Native", "FireBase", "Axios", "Context"],
+  },
+  {
+    title: "Meals App",
+    description:
+      "Meals App is a mobile application where we can view the list of meals based on cusines and their ingredients.We can add our favorite meals and remove meals from favorites.I created this app using both context and redux toolkit",
+    imageSrc: "MealsApp/list_meals.png",
+    outputImages: [
+      "MealsApp/cusines.png",
+      "MealsApp/list_meals.png",
+      "MealsApp/meals_details_0.png",
+      "MealsApp/meals_details_1.png",
+      "MealsApp/favorites.png",
+      "MealsApp/menu.png",
+    ],
+    tools: ["React Native", "Redux toolkit", "Context"],
+  },
+  {
+    title: "Mini Game App",
+    description:
+      "Mini Game App is a mobile mini gaming application. User gives the number and the Opponent which is the game gives the clue as min or max number if the user guess is incorrect. ",
+    imageSrc: "MiniGame/main.png",
+    outputImages: [
+      "MiniGame/start.png",
+      "MiniGame/main.png",
+      "MiniGame/guess.png",
+      "MiniGame/game_over.png",
+    ],
+    tools: ["React Native", "expo"],
+  },
+  {
+    title: "Restaurant Table Booking App",
+    description:
+      "Restaurant Table Booking App is a web application which has both restaurants as admins and users. As a restuarant , they maintain the tables which are reserved or not, accepts the booking and post the offers. As a user, we have the list of restaurants. In the selected restaurant, user can book table with number of seats and can view the offers available in that specified restaurant. This applications performs crud operations",
+    imageSrc: "RestaurantTableBooking/booking.png",
+    outputImages: [
+      "RestaurantTableBooking/hotel_list.png",
+      "RestaurantTableBooking/table_booking.png",
+      "RestaurantTableBooking/reservations.png",
+      "RestaurantTableBooking/booking_history.png",
+      "RestaurantTableBooking/offers.png",
+      "RestaurantTableBooking/tables.png",
+    ],
+    tools: [
+      "React Js",
+      "Node Js",
+      "Axios",
+      "Redux toolkit",
+      "Firebase",
+      "MySQL",
+      "Bookshelf JS",
+      "Express JS",
+    ],
+  },
+  {
+    title: "Food Order Management",
+    description:
+      "Food Order Management is a web application where we can order food in each table and pay without any human interaction by customer.Chef and Owner can manage the food and billing system .This is used to manage food ordering and billing system for both restaurants and customer. This app performs CRUD operations to manage all the process in restaurant",
+    imageSrc: "FoodOrder/main.png",
+    tools: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    outputImages: [
+      "FoodOrder/main.png",
+      "FoodOrder/dish.png",
+      "FoodOrder/list.png",
+      "FoodOrder/menu.png",
+      "FoodOrder/hotel.png",
+    ],
+  },
+];
+export const skills = [
+  "Javascript",
+  "TypeScript",
+  "C",
+  "HTML5",
+  "CSS",
+  "BootStrap",
+  "Java Core",
+  "Git",
+  "GitHub",
+  "Node",
+  "React",
+  "Express",
+  "Redux",
+  "React Native",
+  "Tailwind CSS",
+  "Vue JS",
+  "PHP",
+  "SCSS",
+  "MySql",
+  "MongoDB",
+  "Firebase (Firestore)",
+  "Figma",
+  "DaisyUI",
+  "Angular",
+];

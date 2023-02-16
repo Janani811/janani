@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  background-position: center;
+}
+.wrapper__aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper__rightaside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper__body {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  letter-spacing: 5px;
+}
+.intro {
+  min-height: 32rem;
+  max-height: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+#about,
+#skills,
+#projects {
+  min-height: 38rem;
+  max-height: 120rem;
+}
+.arrow_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.badge {
+  color: white;
+}
+.skills-badge:hover {
+  background-color: #ffbe0b;
+  box-shadow: 2px 2px 4px #9f9797;
+  border: none;
+  color: black;
+}
+.skills-badge,
+.tools-used {
+  background-color: #0a042a;
+  border: none;
+  color: #facb49;
+}
+
+.divider {
+  border: 1px solid black !important;
+}
+@media only screen and (max-width: 20.25em) {
+  /* .wrapper__aside {
+	  display: none;
+	} */
+  .wrapper__body {
+    margin: unset;
+  }
+}
+
+@media only screen and (max-width: 40rem) {
+  /* .wrapper__aside {
+	  display: none;
+	} */
+  /* .name {
+	  font-size: 30px;
+	} */
+  .container {
+    width: 82%;
+  }
+
+  .intro-name {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 30rem) {
+  .intro-name {
+    font-size: 40px;
+  }
+  .tracking-wider {
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+  }
+}
