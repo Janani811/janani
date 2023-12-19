@@ -6,7 +6,7 @@ import { projectData } from "../utils";
   <section class="py-8" id="projects">
     <h1 class="text-5xl font-bold text-center title">PROJECTS</h1>
     <div
-      class="carousel carousel-center rounded-box carousel w-full mt-10 shadow-xl project-card"
+      class="carousel carousel-center rounded-box carousel w-full mt-10 project-card"
     >
       <div
         class="carousel-item relative w-full"
@@ -58,6 +58,6 @@ export default defineComponent({
 
 <style>
 .project-card {
-  border: 0.2rem solid #ffbe0b;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
 }
 </style>

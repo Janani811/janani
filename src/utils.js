@@ -1,5 +1,28 @@
 export const projectData = [
   {
+    title: "Snapupstore",
+    description:
+      "Snapupstore is an eccomerce web application where we can add our products to sell as seller and can buy our favorite products as customer.",
+    imageSrc: "Snapupstore/admin-dashboard.png",
+    outputImages: [
+      "Snapupstore/admin-dashboard.png",
+      "Snapupstore/admin-create-store.png",
+      "Snapupstore/billboard-api-doc.png",
+      "Snapupstore/user-dashboard.png",
+      "Snapupstore/store-items.png",
+      "Snapupstore/checkout-items.png",
+    ],
+    tools: [
+      "NextJs",
+      "Clerk Auth",
+      "Shadcn",
+      "Tailwind",
+      "Stripe",
+      "Mysql",
+      "Prisma",
+    ],
+  },
+  {
     title: "Expense Tracker",
     description:
       "Expense Tracker is a mobile application where we can store our expenses.This is used to track our expenses of a week and total expenses to current date.This app performs crud operations to manage expenses.",

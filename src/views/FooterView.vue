@@ -1,15 +1,19 @@
 <template>
-  <footer class="footer footer-center bg-neutral" id="contact">
-    <div class="py-10 text-white">
+  <footer
+    class="footer footer-center"
+    id="contact"
+    style="background-color: #0a042a"
+  >
+    <div class="py-8 text-white">
       <div class="text-xl">Contact Me @</div>
-      <div class="flex flex-col justify-between font-italic text-grey">
+      <div class="flex justify-between font-italic text-grey">
         <div class="flex items-center">
           <img :src="mailIcon" class="image" />
           <span class="ml-3 text-lg">jananigopalsanthi@gmail.com</span>
         </div>
-        <div class="flex items-center mt-2">
+        <div class="flex items-center ml-4">
           <img :src="callIcon" class="image" />
-          <span class="ml-3 text-lg">8838401180</span>
+          <span class="ml-2 text-lg">8838401180</span>
         </div>
       </div>
     </div>
