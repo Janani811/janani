@@ -42,19 +42,29 @@
           <img :src="contactIcon" class="image" />
         </a>
       </li>
+
+      <li
+        class="tooltip tooltip-left tooltip-warning font-bold"
+        data-tip="Arts"
+      >
+        <a href="./#arts" width="100%">
+          <img :src="artsCratfsIcon" class="image" />
+        </a>
+      </li>
     </ul>
   </div>
 </template>
 <script>
 import { defineComponent } from "vue";
-import homeIcon from "../assets/home-icon.png";
-import aboutIcon from "../assets/about.png";
-import projectsIcon from "../assets/projects.png";
-import skillsIcon from "../assets/skills.png";
-import contactIcon from "../assets/contact.png";
+import homeIcon from "../../public/assets/home-icon.png";
+import aboutIcon from "../../public/assets/about.png";
+import projectsIcon from "../../public/assets/projects.png";
+import skillsIcon from "../../public/assets/skills.png";
+import contactIcon from "../../public/assets/contact.png";
+import artsCratfsIcon from "../../public/assets/arts-crafts.png";
 
 export default defineComponent({
-  name: "ContactMenu",
+  name: "MenuBar",
   data: function () {
     return {
       homeIcon: homeIcon,
@@ -62,6 +72,7 @@ export default defineComponent({
       projectsIcon: projectsIcon,
       skillsIcon: skillsIcon,
       contactIcon: contactIcon,
+      artsCratfsIcon: artsCratfsIcon,
     };
   },
 });

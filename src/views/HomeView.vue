@@ -22,6 +22,7 @@
         <AboutView />
         <SkillsView />
         <ProjectsView />
+        <ArtsView />
       </div>
     </main>
 
@@ -38,8 +39,9 @@ import AboutView from "./AboutView.vue";
 import SkillsView from "./SkillsView.vue";
 import ProjectsView from "./ProjectsView.vue";
 import FooterView from "./FooterView.vue";
+import ArtsView from "./ArtsView.vue";
 
-import downArrowIcon from "../assets/down-arrow.png";
+import downArrowIcon from "../../public/assets/down-arrow.png";
 
 export default defineComponent({
   name: "HomeView",
@@ -51,6 +53,7 @@ export default defineComponent({
     SkillsView,
     ProjectsView,
     FooterView,
+    ArtsView,
   },
   props: {
     projectData: Array,

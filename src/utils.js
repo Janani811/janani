@@ -128,3 +128,52 @@ export const skills = [
   "DaisyUI",
   "Angular",
 ];
+
+export const pencilImages = [
+  "./assets/arts/pencils/elsa.jpg",
+  "./assets/arts/pencils/princess.jpg",
+  "./assets/arts/pencils/cat.jpg",
+  "./assets/arts/pencils/iron-man.jpg",
+  "./assets/arts/pencils/ben-10.jpg",
+];
+
+export const acrylicsImages = [
+  "./assets/arts/acrylic/buddha.jpg",
+  "./assets/arts/acrylic/green-view.jpg",
+  "./assets/arts/acrylic/night-view.jpg",
+  "./assets/arts/acrylic/sea.jpg",
+];
+
+export const oilPastelsImages = [
+  {
+    position: "vertical",
+    imageUrls: "./assets/arts/oil-pastels/ben-10-child1.jpg",
+  },
+  {
+    position: "vertical",
+    imageUrls: "./assets/arts/oil-pastels/ben-10-child2.jpg",
+  },
+  {
+    position: "horizontal",
+    imageUrls: "./assets/arts/oil-pastels/double-view.jpg",
+  },
+  {
+    position: "vertical",
+    imageUrls: "./assets/arts/oil-pastels/purple-view.jpg",
+  },
+  { position: "horizontal", imageUrls: "./assets/arts/oil-pastels/sea.jpg" },
+];
+
+export const decorativeArtsImages = [
+  "./assets/arts/decorative/design1.jpg",
+  "./assets/arts/decorative/design2.jpg",
+  "./assets/arts/decorative/design3.jpg",
+  "./assets/arts/decorative/design4.jpg",
+  "./assets/arts/decorative/design5.jpg",
+  "./assets/arts/decorative/design6.jpg",
+];
+
+export const craftsImages = [
+  "./assets/arts/crafts/card.jpg",
+  "./assets/arts/crafts/wall-hanger.jpg",
+];

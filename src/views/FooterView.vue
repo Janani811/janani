@@ -23,8 +23,8 @@
 <script>
 import { defineComponent } from "vue";
 
-import mailIcon from "../assets/email.png";
-import callIcon from "../assets/call.png";
+import mailIcon from "../../public/assets/email.png";
+import callIcon from "../../public/assets/call.png";
 
 export default defineComponent({
   name: "FooterView",

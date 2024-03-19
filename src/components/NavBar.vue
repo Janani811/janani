@@ -10,7 +10,7 @@
 </template>
 <script>
 import { defineComponent } from "vue";
-import portfolioIcon from "../assets/portfolio.png";
+import portfolioIcon from "../../public/assets/portfolio.png";
 
 export default defineComponent({
   name: "NavBar",

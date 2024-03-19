@@ -67,6 +67,12 @@
 .divider {
   border: 1px solid black !important;
 }
+.image-container {
+  padding-top: 0.5rem; 
+  position: relative;
+  padding-right: 0.5rem;
+}
+
 @media only screen and (max-width: 20.25em) {
   /* .wrapper__aside {
 	  display: none;

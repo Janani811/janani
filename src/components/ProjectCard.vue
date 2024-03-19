@@ -4,7 +4,7 @@
   >
     <figure class="w-11/12 ml-2">
       <img
-        :src="require(`../assets/projects/${projectImage}`)"
+        :src="require(`../../public/assets/projects/${projectImage}`)"
         alt="title"
         class="p-2 object-cover max-h-80"
       />

@@ -22,9 +22,9 @@
 <script>
 import { defineComponent } from "vue";
 
-import LinkedInIcon from "../assets/linkedin.png";
-import GithubIcon from "../assets/github.png";
-import TwitterIcon from "../assets/twitter.png";
+import LinkedInIcon from "../../public/assets/linkedin.png";
+import GithubIcon from "../../public/assets/github.png";
+import TwitterIcon from "../../public/assets/twitter.png";
 
 export default defineComponent({
   name: "ContactMenu",

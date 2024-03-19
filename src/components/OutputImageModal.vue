@@ -22,7 +22,7 @@
               {{ title }}
             </h3>
             <img
-              :src="require(`../assets/projects/${outputImage}`)"
+              :src="require(`../../public/assets/projects/${outputImage}`)"
               alt="title"
               class="object-cover max-h-80 mt-5"
             />
