@@ -5,7 +5,7 @@
         class="tooltip tooltip-left tooltip-warning font-bold"
         data-tip="Home"
       >
-        <a href="./#intro" width="100%">
+        <a href="./#intro" width="100%" class="nav-a-link">
           <img :src="homeIcon" class="image" />
         </a>
       </li>
@@ -13,7 +13,7 @@
         class="tooltip tooltip-left tooltip-warning font-bold"
         data-tip="About"
       >
-        <a href="./#about" width="100%">
+        <a href="./#about" width="100%" class="nav-a-link">
           <img :src="aboutIcon" class="image" />
         </a>
       </li>
@@ -21,7 +21,7 @@
         class="tooltip tooltip-left tooltip-warning font-bold"
         data-tip="Tech Skills"
       >
-        <a href="./#skills" width="100%">
+        <a href="./#skills" width="100%" class="nav-a-link">
           <img :src="skillsIcon" class="image" />
         </a>
       </li>
@@ -29,17 +29,8 @@
         class="tooltip tooltip-left tooltip-warning font-bold"
         data-tip="Projects"
       >
-        <a href="./#projects" width="100%">
+        <a href="./#projects" width="100%" class="nav-a-link">
           <img :src="projectsIcon" class="image" />
-        </a>
-      </li>
-
-      <li
-        class="tooltip tooltip-left tooltip-warning font-bold"
-        data-tip="Contact"
-      >
-        <a href="./#contact" width="100%">
-          <img :src="contactIcon" class="image" />
         </a>
       </li>
 
@@ -47,8 +38,17 @@
         class="tooltip tooltip-left tooltip-warning font-bold"
         data-tip="Arts"
       >
-        <a href="./#arts" width="100%">
+        <a href="./#arts" width="100%" class="nav-a-link">
           <img :src="artsCratfsIcon" class="image" />
+        </a>
+      </li>
+
+      <li
+        class="tooltip tooltip-left tooltip-warning font-bold"
+        data-tip="Contact"
+      >
+        <a href="./#contact" width="100%" class="nav-a-link">
+          <img :src="contactIcon" class="image" />
         </a>
       </li>
     </ul>

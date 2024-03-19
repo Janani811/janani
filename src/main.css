@@ -68,9 +68,13 @@
   border: 1px solid black !important;
 }
 .image-container {
-  padding-top: 0.5rem; 
+  padding-top: 0.5rem;
   position: relative;
   padding-right: 0.5rem;
+}
+
+.nav-a-link:hover {
+  background-color: #2e284a;
 }
 
 @media only screen and (max-width: 20.25em) {

@@ -45,12 +45,12 @@
                   v-for="(image, index) in pencilImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-1/4"
+                  class="image-container w-1/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image"
                     alt="pencils"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded"
                   />
                 </div>
               </div>
@@ -69,12 +69,12 @@
                   v-for="(image, index) in acrylicsImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-1/4"
+                  class="image-container w-1/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image"
                     alt="acrylics"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded shadow"
                   />
                 </div>
               </div>
@@ -93,24 +93,24 @@
                   v-for="(image, index) in oilPastelsVerticalImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-1/4"
+                  class="image-container w-1/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image.imageUrls"
                     alt="oil-pastels"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded shadow"
                   />
                 </div>
                 <div
                   v-for="(image, index) in oilPastelsHorizontalImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-2/4"
+                  class="image-container w-2/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image.imageUrls"
                     alt="oil-pastels"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded shadow"
                   />
                 </div>
               </div>
@@ -129,12 +129,12 @@
                   v-for="(image, index) in decorativeArtsImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-1/4"
+                  class="image-container w-1/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image"
                     alt="designs"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded shadow"
                   />
                 </div>
               </div>
@@ -153,12 +153,12 @@
                   v-for="(image, index) in craftsImages"
                   :key="index"
                   :id="'image' + index"
-                  class="image-container w-1/4"
+                  class="image-container w-1/4 cursor-pointer hover:scale-105"
                 >
                   <img
                     :src="image"
                     alt="crafts"
-                    class="object-cover w-full h-full"
+                    class="object-cover w-full h-full rounded shadow"
                   />
                 </div>
               </div>
